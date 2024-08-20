@@ -1,0 +1,73 @@
+.body{
+    background: linearGradient(to right, #333333,#dd1818)
+}
+
+.main{
+    background-color: white;
+    width: 80%;
+    height: 330px;
+    margin: auto;
+    margin-top: 200px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 1px 1px;
+    border-radius: 5px;
+
+}
+
+.mainH1{
+    margin-left: 30px;
+    padding: 20px;
+    color: #dd1818;
+    font-size: 32px;
+}
+
+.mainP{
+    color: #333333;
+    width: 80%;
+    margin-left: 30px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.textbox {
+    width: 85%;
+    height: 50px;
+    margin-left: 30px;
+    font-size: 17px;
+    padding: 0px 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-top: 30px;
+}
+
+.checkBtn{
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 40px;
+    background-color:#dd1818
+    color #fff;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 1px 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #ec0606;
+}
+
+.correct{
+    color: rgb(30,178,30);
+}
+.wrong{
+    color: #dd1818;
+}
+
+.message{
+    font-size: 22px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: 500;
+}
